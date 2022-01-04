@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(){
-  printf("hello world");
-  return 0;
+	int i;
+	char text[20];
+	for (i=1;i<10;++i){
+		sprintf(text,"%d",i);
+		printf("%s\n",text);
+	}
+
+  	return 0;
 }
